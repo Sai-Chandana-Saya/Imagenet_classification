@@ -11,7 +11,7 @@ This project implements and compares **Residual Networks (ResNets)** and **Plain
 
 ---
 
-## **🛠 Model Architectures**  
+## ** Model Architectures**  
 ### **Implemented Models**  
 | Model       | Depth | Parameters per Block | Key Feature                     |
 |-------------|-------|----------------------|---------------------------------|
