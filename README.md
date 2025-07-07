@@ -1,7 +1,7 @@
 # Imagenet_classification
 # **Comparative Analysis of Residual vs. Plain Networks on CIFAR-10**  
 
-## **📌 Project Overview**  
+## ** Project Overview**  
 This project implements and compares **Residual Networks (ResNets)** and **Plain Networks (PlainNets)** on the **CIFAR-10 dataset**, analyzing how residual connections impact model performance, optimization stability, and scalability with depth.  
 
 ### **Key Findings**  
@@ -30,7 +30,7 @@ This project implements and compares **Residual Networks (ResNets)** and **Plain
 
 ---
 
-## **📊 Results**  
+## ** Results**  
 ### **Performance Comparison**  
 | Model       | Validation Acc | Test Loss | Test Acc |
 |-------------|---------------|-----------|----------|
