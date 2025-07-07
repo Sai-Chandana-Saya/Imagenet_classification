@@ -47,7 +47,7 @@ This project implements and compares **Residual Networks (ResNets)** and **Plain
 - **Loss landscapes**: ResNets exhibit smoother surfaces (see `figures/`).  
 ---
 
-## **🔍 References**  
+##  References  
 - [He et al. (2016)](https://arxiv.org/abs/1512.03385): Original ResNet paper.  
 - CIFAR-10 Dataset: [Official Page](https://www.cs.toronto.edu/~kriz/cifar.html).  
 
