@@ -1,7 +1,7 @@
 # Imagenet_classification
 # **Comparative Analysis of Residual vs. Plain Networks on CIFAR-10**  
 
-## ** Project Overview**  
+##  Project Overview  
 This project implements and compares **Residual Networks (ResNets)** and **Plain Networks (PlainNets)** on the **CIFAR-10 dataset**, analyzing how residual connections impact model performance, optimization stability, and scalability with depth.  
 
 ### **Key Findings**  
@@ -11,8 +11,8 @@ This project implements and compares **Residual Networks (ResNets)** and **Plain
 
 ---
 
-## ** Model Architectures**  
-### **Implemented Models**  
+##  Model Architectures
+### Implemented Models 
 | Model       | Depth | Parameters per Block | Key Feature                     |
 |-------------|-------|----------------------|---------------------------------|
 | ResNet20    | 20    | 6.5K                 | Skip connections, batch norm    |
@@ -22,7 +22,7 @@ This project implements and compares **Residual Networks (ResNets)** and **Plain
 | PlainNet56  | 56    | 18K                  |                                 |
 | PlainNet110 | 110   | 36K                  | Fails at training (20% acc)    |
 
-### **Core Components**  
+### Core Components 
 - **Initial Layer**: 3x3 conv (16 channels) → BatchNorm → ReLU.  
 - **Residual Block**: Two 3x3 convs + skip connection (identity or dimension-adjusted).  
 - **Plain Block**: Same as residual but **no skip connections**.  
@@ -30,7 +30,7 @@ This project implements and compares **Residual Networks (ResNets)** and **Plain
 
 ---
 
-## ** Results**  
+##  Results
 ### **Performance Comparison**  
 | Model       | Validation Acc | Test Loss | Test Acc |
 |-------------|---------------|-----------|----------|
